@@ -1,0 +1,129 @@
+<div class="content-wrapper" id="mainDiv">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Activities
+      <small>Activity Management</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li class="active">Activities</li>
+    </ol>
+  </section>
+
+  <!--Grades Contents-->
+
+  <section class="content">
+
+
+    <!--Grade Info Section-->
+    <div class="row">
+      <!-- Left col -->
+      <section id="gradeView" class="col-lg-5 connectedSortable">
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <h3 class="box-title">New Activities</h3>
+          </div>
+          <!-- /.box-header -->
+          <!-- form start -->
+          <form role="form">
+            <div class="box-body">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Activity Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Drawing">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Grade</label>
+                <select class="form-control" id="comboGrade">
+                  <option value="Grade 1">Grade 1</option>
+                  <option value="Grade 2">Grade 2</option>
+                  <option value="Grade 3">Grade 3</option>
+                  <option value="Grade 4">Grade 4</option>
+                  <option value="Grade 5">Grade 5</option>
+                  <option value="Grade 6">Grade 6</option>
+                  <option value="Grade 7">Grade 7</option>
+                  <option value="Grade 8">Grade 8</option>
+                  <option value="Grade 9">Grade 9</option>
+                  <option value="Grade 10">Grade 10</option>
+                  <option value="Grade 11">Grade 11</option>
+                  <option value="Grade 12">Grade 12</option>
+                  <option value="Grade 13">Grade 13</option>
+                  <option value="Piriven">Piriven</option>
+                  <option value="Special Education">Special Education</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Activity Description</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Drawing Exercise">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+              </div>
+            </div>
+            <!-- /.box-body -->
+
+            <div class="box-footer">
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="col-lg-7 connectedSortable">
+
+        <!-- Map box -->
+        <div class="box box-solid bg-light-blue-gradient">
+          <div class="box-header">
+            <!-- tools box -->
+
+            <!-- /. tools -->
+
+            <i class="fa fa-level-up"></i>
+
+            <h3 class="box-title">
+              All Activities
+            </h3>
+          </div>
+
+          <div class="box box-solid bg-light-blue-gradient col-md-5">
+            <table class="table" style="margin-top: 2%">
+              <thead>
+              <tr>
+                <th scope="col">Grade</th>
+                <th scope="col">Activity</th>
+                <th scope="col">Descripion</th>
+              </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+          </div>
+
+
+          <!-- /.box-body-->
+          <div class="box-footer no-border">
+
+            <!-- /.row -->
+          </div>
+        </div>
+      </section>
+      <div class="col-md-12">
+        <h3>Activities Summary</h3>
+        <table class="table" style="margin-top: 2%" style="background-color: ghostwhite" id="tblPaper" ngModel name="ppr">
+          <thead>
+          <tr>
+            <th scope="col">Grade</th>
+            <th scope="col">Paper Name</th>
+            <th scope="col">Subject</th>
+            <th scope="col">Actions</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>

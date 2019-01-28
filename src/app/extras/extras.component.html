@@ -1,0 +1,114 @@
+<div class="content-wrapper">
+  <section class="content-header">
+    <h1>
+      Extras
+      <small>Extra Functions</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li class="active">Extras</li>
+    </ol>
+  </section>
+
+  <!--Lesson Content-->
+
+  <section class="content">
+    <div class="row">
+      <section id="gradeView" class="col-lg-5 connectedSortable">
+      <div class="box box-primary col-md-6" style="background-color: #9dbed8">
+        <div class="box-header with-border">
+          <h3 class="box-title">Extras</h3>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+        <form role="form" (ngSubmit)="onSubmit(f)" #f="ngForm">
+          <div class="box-body">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Type</label>
+              <select class="form-control" id="comboGrade" ngModel name="grade" required>
+                <option value="Grade 1">Music</option>
+                <option value="Grade 2">Story books</option>
+                <option value="Grade 2">Reference Books</option>
+                <option value="Grade 2">Educational Videos</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Title</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="1st Term Test Model Paper" ngModel name="paperName" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Description(optional)</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="English" ngModel name="subject">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+            </div>
+          </div>
+
+          <div class="box-footer">
+            <button type="submit" class="btn btn-primary" [disabled]="!f.valid">Submit</button>
+          </div>
+        </form>
+      </div>
+      </section>
+      <section class="col-lg-7 connectedSortable">
+
+        <!-- Map box -->
+        <div class="box box-solid bg-light-blue-gradient">
+          <div class="box-header">
+            <!-- tools box -->
+
+            <!-- /. tools -->
+
+            <i class="fa fa-level-up"></i>
+
+            <h3 class="box-title">
+              All Activities
+            </h3>
+          </div>
+
+          <div class="box box-solid bg-light-blue-gradient col-md-5">
+            <table class="table" style="margin-top: 2%">
+              <thead>
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Type</th>
+                <th scope="col">Descripion</th>
+                <th scope="col">Action</th>
+              </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+            </table>
+          </div>
+
+
+          <!-- /.box-body-->
+          <div class="box-footer no-border">
+
+            <!-- /.row -->
+          </div>
+        </div>
+      </section>
+      <div class="col-md-12">
+        <h3>Extras Summary</h3>
+        <table class="table" style="margin-top: 2%;background-color: white">
+          <thead>
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Type</th>
+            <th scope="col">Descripion</th>
+            <th scope="col">Action</th>
+          </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+</div>

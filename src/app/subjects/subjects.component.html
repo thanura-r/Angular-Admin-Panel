@@ -1,0 +1,120 @@
+<div class="content-wrapper" id="mainDiv">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Subjects
+      <small>Subjects Management</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li class="active">Subjects</li>
+    </ol>
+  </section>
+
+  <!--Grades Contents-->
+
+  <section class="content">
+    <div class="row">
+
+      <section id="gradeView" class="col-lg-5 connectedSortable">
+        <div class="box box-primary">
+          <div class="box-header with-border">
+            <h3 class="box-title">Subjects</h3>
+          </div>
+          <!-- /.box-header -->
+          <!-- form start -->
+          <form role="form" (ngSubmit)="onSubmit(f)" #f="ngForm">
+            <div class="box-body">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Subject</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Sinhala" ngModel name="subjectName" required>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Grade</label>
+                <select class="form-control" id="comboGrade" ngModel name="grade" required>
+                  <option value="Grade 1">Grade 1</option>
+                  <option value="Grade 2">Grade 2</option>
+                  <option value="Grade 3">Grade 3</option>
+                  <option value="Grade 4">Grade 4</option>
+                  <option value="Grade 5">Grade 5</option>
+                  <option value="Grade 6">Grade 6</option>
+                  <option value="Grade 7">Grade 7</option>
+                  <option value="Grade 8">Grade 8</option>
+                  <option value="Grade 9">Grade 9</option>
+                  <option value="Grade 10">Grade 10</option>
+                  <option value="Grade 11">Grade 11</option>
+                  <option value="Grade 12">Grade 12</option>
+                  <option value="Grade 13">Grade 13</option>
+                  <option value="Piriven">Piriven</option>
+                  <option value="Special Education">Special Education</option>
+                </select>
+              </div>
+            </div>
+            <!-- /.box-body -->
+
+            <div class="box-footer">
+              <button type="submit" class="btn btn-primary" [disabled]="!f.valid">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="col-lg-7 connectedSortable">
+
+        <!-- Map box -->
+        <div class="box box-solid bg-light-blue-gradient">
+          <div class="box-header" style="background-color: #9dbed8">
+            <!-- tools box -->
+
+            <!-- /. tools -->
+
+            <i class="fa fa-book"></i>
+
+            <h3 class="box-title">
+              New Subjects
+            </h3>
+          </div>
+
+          <div class="box box-solid col-md-5"style="background-color: #9dbed8">
+            <table class="table" style="margin-top: 2%" style="background-color: #9dbed8" id="tblPaper" ngModel name="ppr">
+              <thead>
+              <tr>
+                <th scope="col">Grade</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Actions</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr></tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <!-- /.box-body-->
+          <div class="box-footer no-border">
+
+            <!-- /.row -->
+          </div>
+        </div>
+      </section>
+
+      <div class="col-md-12">
+        <h3>Subject Summary</h3>
+        <table class="table" style="background-color: white">
+          <thead>
+          <tr>
+            <th scope="col">Grade</th>
+            <th scope="col">Subject</th>
+            <th scope="col">Actions</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr></tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+</div>

@@ -1,0 +1,153 @@
+div{
+  #testDiv{
+    position: relative;
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+section {
+  height: 80%;
+  div {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+    h3 {
+      font-size: 2.5em;
+      font-family: "Noto Sans CJK JP Bold";
+      color: #FD5C2B;
+    }
+
+    #selectionPane{
+      height: 25%;
+
+      #comboGrade{
+        position: relative;
+        height: 3.5vh;
+        width: 8vw;
+        top:  40%;
+        left: 30%;
+        text-align: center;
+        border-radius: 2vh;
+      }
+
+      #comboProcesses{
+        position: relative;
+        height: 3.5vh;
+        width: 8vw;
+        top:  40%;
+        left: 35%;
+        border-radius: 2vh;
+      }
+
+      #sections{
+        position: relative;
+        height: 3.5vh;
+        text-align: center;
+        width: 8vw;
+        top:  40%;
+        left: 40%;
+        border-radius: 2vh;
+      }
+    }
+
+    div{i
+      margin: 5px;
+      h1{
+        font-family: "Noto Sans CJK KR Bold";
+        text-align: center;
+      }
+      #addVideoPane{
+        position: relative;
+        background-color: #FFCD00;
+        height: 70%;
+        width: 80%;
+        left: 10%;
+
+        img{
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+      #urlPane {
+        position: relative;
+        height: 6%;
+        width: 80%;
+        top: 10%;
+        left: 10%;
+        display: inline-block;
+        input {
+          position: relative;
+          width: 80%;
+          height: 100%;
+          left: 10%;
+          bottom: 6%;
+        }
+
+        #btnUpload {
+          position: relative;
+          left: 0;
+          background-color: #00a8ff;
+        }
+      }
+    }
+  }
+}
+div{
+  height: 15%;
+  width: 100%;
+}
+#left{
+  position: relative;
+  background-color: beige;
+  border-top-color: #3A38FF;
+  border-radius: 3px;
+  border-top: 3px solid #00B64C;
+  height: 60%;
+  width: 49%;
+  bottom: -5%;
+}
+#right{
+  position: relative;
+  background-color: beige;
+  border-top-color: #3A38FF;
+  border-radius: 3px;
+  border-top: 3px solid #00a8ff;
+  left: 51%;
+  bottom:  55%;
+  height: 60%;
+  width: 49%;
+}
+
+#bottomPane{
+  position: absolute;
+  top: 100%;
+  width: 80%;
+
+  h2{
+    font-family: "Noto Sans CJK JP Bold";
+    text-align: center;
+  }
+
+  #table{
+    position: relative;
+    width: 100%;
+  }
+}
+*/
