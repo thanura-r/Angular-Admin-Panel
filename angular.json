@@ -42,7 +42,8 @@
             "scripts": [
 
               "node_modules/admin-lte/bower_components/morris.js/morris.css",
-              "node_modules/admin-lte/bower_components/jvectormap/jquery-jvectormap.css"
+              "node_modules/admin-lte/bower_components/jvectormap/jquery-jvectormap.css",
+              "node_modules/jquery/dist/jquery.js"
             ]
           },
           "configurations": {
